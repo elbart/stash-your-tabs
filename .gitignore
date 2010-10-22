@@ -1,0 +1,10 @@
+/bin
+/eggs
+/develop-eggs
+/etc
+/parts
+/.installed.cfg
+/src/Stashthetab.egg-info
+/.project
+/.pydevproject
+/.downloads

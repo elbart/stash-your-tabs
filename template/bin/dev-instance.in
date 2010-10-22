@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python ${appengine:location}/dev_appserver.py src/stashthetab

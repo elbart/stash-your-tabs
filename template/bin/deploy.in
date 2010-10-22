@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python ${appengine:location}/appcfg.py src/stashthetab

@@ -7,4 +7,5 @@
 /src/Stashthetab.egg-info
 /.project
 /.pydevproject
-/.downloads
+/downloads
+*.pyc

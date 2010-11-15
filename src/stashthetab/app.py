@@ -2,11 +2,19 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 import handlers
 
-application = webapp.WSGIApplication(
-                                     [('/list', handlers.ListHandler)],
-                                     debug=True)
+def configure():
+    urlmap = [
+              ('/user/([^/]+)/list', handlers.ListHandler),
+              ('/user/([^/]+)/auth', handlers.AuthHandler)
+              ]
+    
+    config = {}
+    
+    return [urlmap, config]
 
 def main():
+    urlmap, config = configure()
+    application = webapp.WSGIApplication(urlmap, debug=False)
     run_wsgi_app(application)
 
 if __name__ == "__main__":

@@ -1,4 +1,9 @@
-#import user
+'''
+Created on Nov 16, 2010
+
+@author: Tim Eggert <tim@elbart.com>
+'''
+
 import functools
 import models
 

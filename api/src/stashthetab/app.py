@@ -1,3 +1,9 @@
+'''
+Created on Nov 16, 2010
+
+@author: Tim Eggert <tim@elbart.com>
+'''
+
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 import handlers

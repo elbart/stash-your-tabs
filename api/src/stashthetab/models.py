@@ -1,3 +1,9 @@
+'''
+Created on Nov 16, 2010
+
+@author: Tim Eggert <tim@elbart.com>
+'''
+
 from google.appengine.ext import db
 from django.utils import simplejson as json
 import serializer
